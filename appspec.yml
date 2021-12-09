@@ -7,12 +7,12 @@ hooks:
   ApplicationStart:
     - location: gitStatus.sh
       timeout: 300
-      runas: root
+      runas: php7encode
 
   ValidateService:
     - location: encrypt.sh
       timeout: 300
-      runas: root
+      runas: php7encode
 
   # ValidateServices:
   #   - location: scripts/validateservice.sh
