@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/php7encode
-`./new_project_script.sh devsecops1`
+`./new_project_script.sh abcd`
