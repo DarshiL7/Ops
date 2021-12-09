@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/repo/demoRepo
 lastServerCommit=$(git rev-parse HEAD)
 git stash
 git pull
@@ -19,5 +18,5 @@ echo "Number of file copying:"${#myArray[@]}
 for (( i = 0 ; i < ${#myArray[@]} ; i++))
 do
   echo ${myArray[$i]}
-  cp ${myArray[$i]} reports/
+  cp ${myArray[$i]} parth/
 done

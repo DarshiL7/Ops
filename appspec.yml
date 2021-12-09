@@ -2,13 +2,13 @@ version: 0.0
 os: linux
 files:
   - source: /appspec.yml
-    destination: /home/php7encode/projects/devops
+    destination: /home/ubuntu/repo/demoRepo
 hooks:
   ApplicationStart:
     - location: gitStatus.sh
       timeout: 300
       runas: root
-      
+
   ValidateService:
     - location: encrypt.sh
       timeout: 300
