@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu
-`./enc.sh devsecops1`
+cd /home/php7encode
+`./new_project_script.sh devsecops1`

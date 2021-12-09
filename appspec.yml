@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /appspec.yml
-    destination: /home/ubuntu/repo/demoRepo
+    destination: /home/php7encode/projects/devops
 hooks:
   ApplicationStart:
     - location: gitStatus.sh
