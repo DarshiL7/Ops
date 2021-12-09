@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/php7encode/projects/devops/rxarchitecture
+cd /home/ubuntu/repo/demoRepo
 lastServerCommit=$(git rev-parse HEAD)
 git stash
 git pull
