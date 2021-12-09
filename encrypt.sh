@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ubuntu
-`./enc.sh devsecops`
+`./enc.sh devsecops1`
