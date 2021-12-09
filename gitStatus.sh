@@ -19,5 +19,5 @@ echo "Number of file copying:"${#myArray[@]}
 for (( i = 0 ; i < ${#myArray[@]} ; i++))
 do
   echo ${myArray[$i]}
-  cp ${myArray[$i]} ../partial/
+  sudo -u php7encode cp ${myArray[$i]} ../partial/
 done
