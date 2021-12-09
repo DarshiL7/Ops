@@ -11,7 +11,7 @@ echo "Files that are changes between two commits:"
 echo "\n"
 git diff --name-only $lastGitCommit $lastServerCommit
 git diff --name-only $lastGitCommit $lastServerCommit -- '*.php' > changedfiles.txt
-filename=report6.txt
+filename=changedfiles.txt
 declare -a myArray
 myArray=(`cat "$filename"`)
 echo "${myArray[0]}"
