@@ -10,7 +10,7 @@ echo "\n"
 echo "Files that are changes between two commits:"
 echo "\n"
 git diff --name-only $lastGitCommit $lastServerCommit
-git diff --name-only $lastGitCommit $lastServerCommit -- '*.php' > report6.txt
+git diff --name-only $lastGitCommit $lastServerCommit -- '*.php' > changedfiles.txt
 filename=report6.txt
 declare -a myArray
 myArray=(`cat "$filename"`)
@@ -19,5 +19,5 @@ echo "Number of file copying:"${#myArray[@]}
 for (( i = 0 ; i < ${#myArray[@]} ; i++))
 do
   echo ${myArray[$i]}
-  cp ${myArray[$i]} reports/
+  cp ${myArray[$i]} ../partial/
 done

@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/php7encode
-`./new_project_script.sh karan`
+`./encode_project_72_complete.sh devops p NEVER`
