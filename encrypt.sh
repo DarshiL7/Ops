@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/php7encode
-`./encode_project_72_complete.sh devops p NEVER`
+`./new_project_script.sh parth https://github.com/parthshah889900/demoOps.git`
