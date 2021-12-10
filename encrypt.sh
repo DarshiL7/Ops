@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/php7encode
-`./new_project_script.sh check https://github.com/parthshah889900/demoOps.git`
+sudo -u php7encode `./encode_project_72_complete.sh devops p NEVER`
