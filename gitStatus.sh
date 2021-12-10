@@ -21,3 +21,4 @@ do
   echo ${myArray[$i]}
   sudo -u php7encode cp --parent ${myArray[$i]} ../partial/
 done
+sudo -u php7encode cp devopsOps.sh ../ 
