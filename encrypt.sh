@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/php7encode
-`./enc.sh n rxarchitecture devops`
+`./enc.sh y rxarchitecture devops p NEVER`
