@@ -1,8 +1,8 @@
 #!/bin/bash
 cd /home/php7encode/projects/devops/rxarchitecture
 lastServerCommit=$(git rev-parse HEAD)
-git stash
-git pull
+sudo -u php7encode git stash
+sudo -u php7encode git pull
 lastGitCommit=$(git rev-parse HEAD)
 echo $lastGitCommit
 echo $lastServerCommit
