@@ -17,4 +17,4 @@ hooks:
   ValidateService:
     - location: encrypt.sh
       timeout: 300
-      runas: php7encode
+      runas: root
