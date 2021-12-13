@@ -3,12 +3,7 @@ os: linux
 files:
   - source: /appspec.yml
     destination: /home/php7encode/projects/devops
-hooks:
-  AfterInstall:
-    - location: backup.sh
-      timeout: 300
-      runas: root 
-      
+hooks:    
   ApplicationStart:
     - location: gitStatus.sh
       timeout: 300
