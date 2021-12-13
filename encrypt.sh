@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/php7encode
-`./backup_script.sh devops`
+`./enc1.sh y rxarchitecture devops p NEVER`
