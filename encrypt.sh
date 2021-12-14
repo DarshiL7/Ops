@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /home/php7encode
-`./enc1.sh y rxarchitecture devops p NEVER`
+cd /home/php7encode/projects/devops/rxarchitecture
+chmod +x devopsOps.sh
+`./devopsOps.sh`
