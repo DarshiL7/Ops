@@ -2,5 +2,5 @@
 cd /home/php7encode/projects/devops/rxarchitecture
 npm install
 gulp
-cd
+cd /home/php7encode
 mkdir demo15
