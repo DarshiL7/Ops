@@ -4,12 +4,12 @@ files:
   - source: /appspec.yml
     destination: /home/php7encode/projects/devops
 hooks:
-  AfterInstall:
+  BeforeInstall:
       - location: backup.sh
         timeout: 300
         runas: root 
 
-  BeforeInstall:
+  AfterInstall:
       - location: gitStatus.sh
         timeout: 300
         runas: root 
