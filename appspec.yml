@@ -5,21 +5,21 @@ files:
     destination: /home/php7encode/projects/devops
 hooks:
   BeforeInstall:
-      - location: backup.sh
+      - location: gitStatus.sh
         timeout: 300
         runas: root 
 
   AfterInstall:
-      - location: gitStatus.sh
+      - location: encrypt.sh
         timeout: 300
         runas: root 
         
   ApplicationStart:
-    - location: encrypt.sh
+    - location: gulp.sh
       timeout: 300
       runas: root
 
   ValidateService:
-    - location: gulp.sh
+    - location: artifact.sh
       timeout: 300
       runas: root
