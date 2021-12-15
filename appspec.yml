@@ -22,4 +22,4 @@ hooks:
   ValidateService:
     - location: artifact.sh
       timeout: 300
-      runas: root
+      runas: php7encode
