@@ -7,4 +7,5 @@ rm -f ..gitignore.swp
 rm -f .htaccess
 zip -r artifact.zip .
 aws s3 cp ./artifact.zip s3://opsbucketdemo/devops/buildArtifact/
-rm -rf artifact.zip
+cd ..
+rm -rf artifact/*
