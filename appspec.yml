@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /appspec.yml
-    destination: /home/php7encode/projects/devops
+  - source: /
+    destination: /home/php7encode/files
 hooks:
   BeforeInstall:
       - location: gitStatus.sh
