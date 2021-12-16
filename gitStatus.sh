@@ -1,5 +1,7 @@
 #!/bin/bash
-cd /home/php7encode/projects/devops/rxarchitecture
+project=`jq -r '.projectName.name' value.json`
+repo=`jq -r '.projectName.repoName' value.json`
+cd /home/php7encode/projects/$project/$repo
 lastServerCommit=$(git rev-parse HEAD)
 git stash
 git pull
