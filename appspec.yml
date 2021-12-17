@@ -5,12 +5,12 @@ files:
     destination: /home/php7encode/projects/devops
 hooks:
   BeforeInstall:
-    - location: gitStatus.sh
+      - location: gitStatus.sh
         timeout: 300
         runas: root 
 
   AfterInstall:
-    - location: encrypt.sh
+      - location: encrypt.sh
         timeout: 300
         runas: root 
         
